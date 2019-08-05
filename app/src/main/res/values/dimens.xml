@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_headline3">48sp</dimen>
+    <dimen name="dimen_headline4">40sp</dimen>
+    <dimen name="dimen_headline5">32sp</dimen>
+    <dimen name="dimen_headline6">24sp</dimen>
+    <dimen name="dimen_subtitle">16sp</dimen>
+    <dimen name="dimen_body">16sp</dimen>
+
+
+    <dimen name="padding_10">10dp</dimen>
+</resources>
