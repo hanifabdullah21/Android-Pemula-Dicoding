@@ -16,6 +16,7 @@
             android:textSize="@dimen/dimen_headline6"/>
 
     <android.support.v7.widget.RecyclerView
+            android:id="@+id/main_rv_dinosaur_catalog"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"/>
