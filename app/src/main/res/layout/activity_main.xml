@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -13,12 +13,94 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_title"
-            android:textSize="@dimen/dimen_headline6"/>
+            android:textSize="@dimen/dimen_headline5"
+            android:layout_above="@id/main_ll_menu_periode"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_horizontal"/>
 
-    <android.support.v7.widget.RecyclerView
-            android:id="@+id/main_rv_dinosaur_catalog"
+    <ImageView
+            android:id="@+id/main_iv_about"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_about_app"/>
+
+    <LinearLayout
+            android:id="@+id/main_ll_menu_periode"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"/>
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
 
-</LinearLayout>
+        <android.support.v7.widget.CardView
+                android:layout_margin="10dp"
+                android:id="@+id/main_cv_triassic"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:src="@drawable/triassic"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_vertical"
+                          android:layout_marginLeft="10dp"
+                          android:textSize="@dimen/dimen_headline6"
+                          android:text="Periode Triassic"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+                android:layout_margin="10dp"
+                android:id="@+id/main_cv_jurassic"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:src="@drawable/jurassic"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_vertical"
+                          android:layout_marginLeft="10dp"
+                          android:textSize="@dimen/dimen_headline6"
+                          android:text="Periode Jurassic"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+                android:id="@+id/main_cv_cretaceous"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:src="@drawable/cretacius"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_vertical"
+                          android:layout_marginLeft="10dp"
+                          android:textSize="@dimen/dimen_headline6"
+                          android:text="Periode Cretaceous"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>
