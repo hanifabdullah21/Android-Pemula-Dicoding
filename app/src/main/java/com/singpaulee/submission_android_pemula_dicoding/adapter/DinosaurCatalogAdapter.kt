@@ -8,9 +8,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
+import com.singpaulee.submission_android_pemula_dicoding.DetailActivity
 import com.singpaulee.submission_android_pemula_dicoding.R
 import com.singpaulee.submission_android_pemula_dicoding.model.DinosaurModel
 import kotlinx.android.synthetic.main.item_dinosaur.view.*
+import org.jetbrains.anko.intentFor
+import org.jetbrains.anko.sdk27.coroutines.onClick
 
 
 class DinosaurCatalogAdapter(val context: Context, val listDinosaur: ArrayList<DinosaurModel>?) :
@@ -39,6 +42,11 @@ class DinosaurCatalogAdapter(val context: Context, val listDinosaur: ArrayList<D
             itemView.idi_tv_name_dinosaur.text = dinosaur?.name.toString()
 
             Log.d("DinosaurAdapter", dinosaur.toString())
+
+            itemView.onClick {
+                val intent = itemView.context.intentFor<DetailActivity>("dinosaur" to dinosaur)
+                itemView.context.startActivity(intent)
+            }
         }
     }
 }
