@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_10"
+        tools:context=".DetailActivity">
+
+    <TextView
+            android:id="@+id/da_tv_name_dinosaur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Tyrannosaurus"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:textSize="@dimen/dimen_headline5"/>
+
+    <ImageView
+            android:id="@+id/da_iv_image_dinosaur"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerInside"
+            android:layout_below="@id/da_tv_name_dinosaur"
+            android:src="@drawable/dinosaur"
+            android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+            android:id="@+id/da_ll_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/da_iv_image_dinosaur">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/dimen_subtitle"
+                  android:textStyle="bold"
+                  android:text="Deskripsi Singkat"/>
+
+        <TextView
+                android:id="@+id/da_tv_description_dinosaur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/dimen_body"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/da_ll_quick_fact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/da_ll_description">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/dimen_subtitle"
+                  android:textStyle="bold"
+                  android:text="Fakta Unik"/>
+
+        <TextView
+                android:id="@+id/da_tv_quick_fact_dinosaur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/dimen_body"/>
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:lottie_rawRes="@raw/lottie_dinosaur_animation"
+            android:layout_alignParentRight="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
