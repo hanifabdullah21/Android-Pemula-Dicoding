@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v){
-            main_cv_triassic -> startActivity(intentFor<CatalogDinosaurActivity>("periode" to "triassic"))
-            main_cv_jurassic -> startActivity(intentFor<CatalogDinosaurActivity>("periode" to "jurassic"))
+            main_cv_triassic -> startActivity(intentFor<CatalogDinosaurActivity>("periode" to "Triassic"))
+            main_cv_jurassic -> startActivity(intentFor<CatalogDinosaurActivity>("periode" to "Jurassic"))
             main_cv_cretaceous -> toast("Maaf menu ini masih dalam pengembangan")
             main_iv_about -> startActivity(intentFor<AboutAppActivity>())
         }

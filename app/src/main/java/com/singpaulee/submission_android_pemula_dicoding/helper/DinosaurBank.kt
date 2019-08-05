@@ -112,7 +112,7 @@ object DinosaurBank {
     private var dinosaurJurassic = arrayOf(
         arrayOf(
             "Brachytrachelopan",
-            "https:://images.dinosaurpictures.org/5-brachytrachelopan-walking-kostyantyn-ivanyshen_6916.jpg",
+            "https://images.dinosaurpictures.org/5-brachytrachelopan-walking-kostyantyn-ivanyshen_6916.jpg",
             "Brachytrachelopan adalah seorang herbivora. Ia hidup pada periode Jurassic dan menghuni Amerika Selatan. Fosilnya telah ditemukan di tempat-tempat seperti Argentina.",
             "- Sudah ada dari 152,1 juta tahun lalu hingga 145 juta tahun lalu\n" +
                     "- Tinggal di habitat darat\n" +
@@ -122,19 +122,19 @@ object DinosaurBank {
         ),
         arrayOf(
             "Xiaosaurus",
-            "https:://images.dinosaurpictures.org/xiaosaurus_839f.jpg",
+            "https://images.dinosaurpictures.org/xiaosaurus_839f.jpg",
             "Xiaosaurus adalah seorang herbivora. Ia hidup pada periode Jurassic dan mendiami Asia. Fosilnya telah ditemukan di tempat-tempat seperti Sichuan (Cina).",
             ""
         ),
         arrayOf(
             "Datousaurus",
-            "https:://images.dinosaurpictures.org/datousaurus_web_3124.jpg",
+            "https://images.dinosaurpictures.org/datousaurus_web_3124.jpg",
             "Datousaurus adalah seorang herbivora. Ia hidup pada periode Jurassic dan mendiami Asia. Fosilnya telah ditemukan di tempat-tempat seperti Sichuan (Cina).",
             ""
         ),
         arrayOf(
             "Abrosaurus",
-            "",
+            "https://images.dinosaurpictures.org/Abrosaurus-dongpoi_d4be.jpg",
             "Abrosaurus adalah seorang herbivora. Ia hidup pada periode Jurassic dan mendiami Asia. Fosilnya telah ditemukan di tempat-tempat seperti Sichuan (Cina).",
             "- Ada dari Zaman Bajocian hingga Zaman Callovian\n" +
                     "- Tinggal di habitat darat\n" +
@@ -144,7 +144,7 @@ object DinosaurBank {
         ),
         arrayOf(
             "Gnathosaurus",
-            "https:://images.dinosaurpictures.org/Gnathosaurus_9ac8.jpg",
+            "https://images.dinosaurpictures.org/Gnathosaurus_9ac8.jpg",
             "Gnathosaurus adalah pterosaurus, sejenis reptil terbang. Itu bukan dinosaurus, meskipun hidup pada periode yang sama. Gnathosaurus hidup selama Zaman Akhir dan tinggal di Eropa. Fosil Gnathosaurus pertama ditemukan pada tahun 1833.",
             "- Ada dari Zaman Berriasian hingga 139,8 juta tahun yang lalu\n" +
                     "- Tinggal di habitat laut\n" +
@@ -154,7 +154,7 @@ object DinosaurBank {
         ),
         arrayOf(
             "Adeopapposaurus",
-            "https:://images.dinosaurpictures.org/Adeopapposaurus-Brad-ysaurus_6eee.jpg",
+            "https://images.dinosaurpictures.org/Adeopapposaurus-Brad-ysaurus_6eee.jpg",
             "Adeopapposaurus adalah herbivora. Ia hidup pada periode Jurassic dan menghuni Amerika Selatan. Fosilnya telah ditemukan di tempat-tempat seperti Argentina.",
             "- Ada dari Zaman Jurassic Bawah hingga 174,1 juta tahun yang lalu\n" +
                     "- Tinggal di habitat darat\n" +
@@ -162,7 +162,7 @@ object DinosaurBank {
         ),
         arrayOf(
             "Chialingosaurus",
-            "https:://images.dinosaurpictures.org/Chialingosaurus_3192.jpg",
+            "https://images.dinosaurpictures.org/Chialingosaurus_3192.jpg",
             "Chialingosaurus adalah herbivora. Ia hidup pada periode Jurassic dan mendiami Asia.",
             "- Sudah ada dari 182,7 juta tahun lalu hingga 66 juta tahun lalu\n" +
                     "- Tinggal di habitat darat\n" +
@@ -172,13 +172,13 @@ object DinosaurBank {
         ),
         arrayOf(
             "Hesperosaurus",
-            "https:://images.dinosaurpictures.org/Hesperosaurus_NT_f4e2.jpg",
+            "https://images.dinosaurpictures.org/Hesperosaurus_NT_f4e2.jpg",
             "Hesperosaurus adalah seorang herbivora. Ia hidup pada periode Jurassic dan menghuni Amerika Utara. Fosilnya telah ditemukan di tempat-tempat seperti Wyoming.",
             ""
         ),
         arrayOf(
             "Anurognathus",
-            "https:://images.dinosaurpictures.org/anurognathus_c19a.jpg",
+            "https://images.dinosaurpictures.org/anurognathus_c19a.jpg",
             "Anurognathus adalah pterosaurus, sejenis reptil terbang. Itu bukan dinosaurus, meskipun hidup pada periode yang sama. Anurognathus hidup selama Jurassic Akhir dan tinggal di Eropa. Fosil Anurognathus pertama ditemukan pada tahun 1923.",
             "- Ada dari Zaman Tithonian hingga 145 juta tahun yang lalu\n" +
                     "- Tinggal di habitat laut\n" +
@@ -188,7 +188,7 @@ object DinosaurBank {
         ),
         arrayOf(
             "Hexinlusaurus",
-            "https:://images.dinosaurpictures.org/Hexinlusaurus_bb71.jpg",
+            "https://images.dinosaurpictures.org/Hexinlusaurus_bb71.jpg",
             "Hexinlusaurus adalah seorang herbivora. Ia hidup pada periode Jurassic dan mendiami Asia. Fosilnya telah ditemukan di tempat-tempat seperti Sichuan (Cina).",
             "- Ada sejak 170,3 juta tahun yang lalu hingga Zaman Callovian\n" +
                     "- Tinggal di habitat darat\n" +
