@@ -3,6 +3,7 @@ package com.singpaulee.submission_android_pemula_dicoding.adapter
 import android.annotation.SuppressLint
 import android.content.Context
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -36,6 +37,8 @@ class DinosaurCatalogAdapter(val context: Context, val listDinosaur: ArrayList<D
                 .into(itemView.idi_iv_dinosaur)
 
             itemView.idi_tv_name_dinosaur.text = dinosaur?.name.toString()
+
+            Log.d("DinosaurAdapter", dinosaur.toString())
         }
     }
 }
