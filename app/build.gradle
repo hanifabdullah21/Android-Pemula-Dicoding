@@ -12,12 +12,22 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
+        setProperty("archivesBaseName", "COMU-$versionName")
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "Submission-Android-Pemula-Dicoding ${variant.versionName}.apk"
+                }
+            }
         }
     }
 }
